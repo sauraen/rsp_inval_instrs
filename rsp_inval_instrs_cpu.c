@@ -2,10 +2,12 @@
 
 DEFINE_RSP_UCODE(rsp_inval_instrs);
 
-uint64_t dmem_scratch_space[21] = {
+uint64_t dmem_scratch_space[0x22] = {
     0, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0,
 };
 
 int main(void)
